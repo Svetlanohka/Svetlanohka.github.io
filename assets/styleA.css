@@ -1,3 +1,4 @@
+
 /* сброс стилей браузера */
 
 html,
@@ -121,7 +122,20 @@ table {
 }
 
 /* конец кода сброса стилей браузера */
-
+body{
+    height: auto;
+     box-sizing: cover;
+   
+    }
+.wrapper{
+    max-width: 1500px;
+    width:auto;
+    height: auto;
+   
+}
+*{
+   box-sizing:border-box;
+}
 @media screen and (max-width: 340px) {
     html {
         background-image: -webkit-repeating-linear-gradient(45deg, #b8dfd8 20px, #FFC0CB 30px, #708090 40px);
@@ -139,6 +153,7 @@ table {
         box-shadow: 0 0 15px 5px rgba(44, 82, 100, .75);
         border-radius: 15px;
         width: 100%;
+        box-sizing:border-box;
         max-width: 480px;
         height: 3%;
         margin-top: 4%;
@@ -426,8 +441,8 @@ table {
     div>h1 {
         position: absolute;
         top: 45%;
-        left: 31%;
-        font-size: 45%;
+        left: 35%;
+        font-size: 55%;
         font-weight: bold;
         font-family: Georgia, "Times New Roman", Times, serif;
         font-weight: normal;
@@ -448,9 +463,9 @@ table {
         margin: auto;
         margin-right: auto;
         position: absolute;
-        top: 18%;
-        right: 3%;
-        line-height: 0.2em;
+        top: 19%;
+        right: 1%;
+        line-height: 0.1em;
         color: #4B00B2;
         font-size: 65%;
         text-align: center;
@@ -460,7 +475,7 @@ table {
         background-image: url("images/phone.png");
         background-repeat: no-repeat;
         width: 15px;
-        opacity: 0;
+        margin-top: 15px;
         height: 15px;
         display: inline-block;
         padding-right: 125px;
@@ -488,9 +503,9 @@ table {
     .header_aside .fonenv {
         background-image: url("images/envelope.png");
         background-repeat: no-repeat;
-        opacity: 0;
         width: 15px;
         height: 15px;
+        margin-top: 15px;
         display: inline-block;
         padding-right: 5%;
     }
@@ -507,14 +522,15 @@ table {
     }
     .top-aside {
         width: 23%;
-        height: 10%;
+        height: 20%;
         opacity: 0;
         border: 2px solid grey;
         text-align: center;
         color: #008000;
         position: absolute;
         top: -1%;
-        left: 75%;
+        left: 65%;
+        margin: 1%;
         margin-top: 26%;
         padding: 1%;
     }
@@ -523,7 +539,7 @@ table {
         position: absolute;
         top: 25%;
         left: 0;
-        padding: 1%;
+        padding: 1%;margin-right: 1%;
 
     }
 
@@ -542,25 +558,19 @@ table {
     }
     .top-container {
         position: relative;
-        width: 98%;
+        width: 100%;
         height: 30px;
         border: 3px solid rgb(192, 192, 192);
         background-color: #DDA0DD;
         border: 2px solid #8B0000;
         border-radius: 10px;
-        padding: 0.5%;
+        padding: 1%;
         margin: 1%;
         margin-top: 14%;
 
     }
 
-    .top-container.nav {
-        padding: 0;
-        margin: 10%;
-        list-style: none;
-
-    }
-
+   
     .mainNav {
         padding: 1%;
         margin: 0%;
@@ -607,6 +617,7 @@ table {
         border-radius: 15px;
         float: left;
         margin: 2%;
+        margin-left: 10%;
         background-color: #FFD700;
         padding: 2%;
         text-align: center;
@@ -615,14 +626,19 @@ table {
     }
 
     .footer {
-        width: 98%;
-        height: auto;
-        margin: auto;
-        float: left;
+        position: relative;
+        width: 100%;
+        height: 30px;
+        border: 3px solid rgb(192, 192, 192);
+        background-color: #DDA0DD;
+        border: 2px solid #8B0000;
+        border-radius: 10px;
+        padding: 1%;
+        margin: 1%;
+        margin-top:520%;
     }
 
     .footerNav {
-        padding: 0;
         padding: 0%;
         margin: 0%;
         list-style: none;
@@ -635,7 +651,7 @@ table {
     }
     .footerNav a {
         color: #8B0000;
-        font-size: 9px;
+        font-size: 7px;
         text-transform: uppercase;
         text-decoration: none;
         letter-spacing: 0.2em;
@@ -644,10 +660,12 @@ table {
         border: 1px solid #9400D3;
         border-radius: 15px;
         background-color: #FF69B4;
-        margin: 0.5%;
-        text-align: center;
+        margin-left: 25%;
     }
-
+.footerNav a:nth-of-type(1) {
+        margin-left: 1%;
+        margin-bottom: 1%;
+    }
 
     .footerNav a:hover {
         font-weight: bold;
@@ -674,7 +692,8 @@ table {
         -webkit-box-shadow: 0 0 15px 5px rgba(44, 82, 100, .75);
         box-shadow: 0 0 15px 5px rgba(44, 82, 100, .75);
         border-radius: 15px;
-        width: 98%;
+        width: 100%;
+        max-width: 580px;
         height: 3%;
         margin-top: 4%;
         margin-left: 0.3%;
@@ -721,7 +740,7 @@ table {
         transform: skewY(-20deg);
     }
     .header>.header_aside {
-        width: 18%;
+        width: 23%;
         height: 45%;
         background: #ddd;
         border: 1px solid #BD87EE;
@@ -787,14 +806,15 @@ table {
 
     }
     .top-aside {
-        width: 23%;
-        height: 10%;
+        width: 30%;
+        height: 13%;
         border: 2px solid grey;
         text-align: center;
         color: #008000;
         position: absolute;
         top: -1%;
-        left: 75%;
+        left: 65%;
+        margin: 1%;
         margin-top: 195px;
         padding: 1%;
     }
@@ -953,7 +973,9 @@ table {
         -webkit-box-shadow: 0 0 15px 5px rgba(44, 82, 100, .75);
         box-shadow: 0 0 15px 5px rgba(44, 82, 100, .75);
         border-radius: 15px;
-        width: 98%;
+        width: 100%;
+        max-width: 740px;
+        box-sizing:border-box;
         height: 3%;
         margin-top: 4%;
         margin-left: 0.3%;
@@ -1072,8 +1094,8 @@ table {
 
     }
     .top-aside {
-        width: 23%;
-        height: 10%;
+        width: 30%;
+        height: 13%;
         border: 2px solid grey;
         text-align: center;
         color: #008000;
@@ -1228,11 +1250,16 @@ table {
 @media screen and (min-width: 740px) and (max-width:1024px) {
 
     html {
+        overflow: auto;background-size: cover;
         background-image: -webkit-repeating-linear-gradient(45deg, #b8dfd8 20px, #FFC0CB 30px, #708090 40px);
         background-image: -o-repeating-linear-gradient(45deg, #b8dfd8 20px, #FFC0CB 30px, #708090 40px);
         background-image: repeating-linear-gradient(45deg, #b8dfd8 20px, #FFC0CB 30px, #708090 40px);
     }
 
+body{
+    height: auto;
+    
+}
     .header {
         background-image: -webkit-linear-gradient(245deg, #B0C4DE, #DDA0DD, #FFFFFF 55%);
         background-image: -o-linear-gradient(245deg, #B0C4DE, #DDA0DD, #FFFFFF 55%);
@@ -1241,9 +1268,10 @@ table {
         -webkit-box-shadow: 0 0 15px 5px rgba(44, 82, 100, .75);
         box-shadow: 0 0 15px 5px rgba(44, 82, 100, .75);
         border-radius: 15px;
-        width: 98%;
-        height: 3%;
-        margin-top: 4%;
+        width: 100%;
+        max-width: 1024px;
+        height: 2%;
+        margin-top: 2%;
         margin-left: 0.3%;
         margin-right: 2%;
         padding: 2%;
@@ -1271,7 +1299,7 @@ table {
     div>h1 {
         position: absolute;
         top: 45%;
-        left: 25%;
+        left: 20%;
         font-size: 95%;
         font-weight: bold;
         font-family: Georgia, "Times New Roman", Times, serif;
@@ -1296,17 +1324,17 @@ table {
 
     }
     .header>.header_aside {
-        width: 18%;
+        width: 25%;
         height: 55%;
         background: #ddd;
         border: 1px solid #BD87EE;
         border-radius: 60px/30px;
         padding: 1.5%;
-        margin: 0.5%;
+        margin: 1%;
         position: absolute;
         top: 10%;
         right: 3%;
-        line-height: 1.8em;
+        line-height: 0.5em;
         color: #4B00B2;
         font-size: 95%;
         text-align: center;
@@ -1360,15 +1388,15 @@ table {
 
     }
     .top-aside {
-        width: 23%;
-        height: 10%;
+        width: 30%;
+        height: 13%;
         border: 2px solid grey;
         text-align: center;
         color: #008000;
         position: absolute;
-        top: -5%;
+        top: -15%;
         left: 75%;
-        margin-top: 26%;
+        margin-top: 30%;
         padding: 1%;
     }
 
@@ -1466,6 +1494,7 @@ table {
         color: #800000;
     }
 
+
     .footer {
         padding: 0;
         width: 98%;
@@ -1475,7 +1504,7 @@ table {
     .footerNav {
         padding: 1%;
         float: left;
-        margin-bottom: -10%;
+        margin-bottom: -1%;
         list-style: none;
     }
 
@@ -1511,6 +1540,7 @@ table {
         background-image: -webkit-repeating-linear-gradient(45deg, #b8dfd8 20px, #FFC0CB 30px, #708090 40px);
         background-image: -o-repeating-linear-gradient(45deg, #b8dfd8 20px, #FFC0CB 30px, #708090 40px);
         background-image: repeating-linear-gradient(45deg, #b8dfd8 20px, #FFC0CB 30px, #708090 40px);
+        background-size: cover;
     }
     .body {
         width: 1200px;
@@ -1524,7 +1554,8 @@ table {
         -webkit-box-shadow: 0 0 15px 5px rgba(44, 82, 100, .75);
         box-shadow: 0 0 15px 5px rgba(44, 82, 100, .75);
         border-radius: 15px;
-        width: 98%;
+        width: 100%;
+        max-width: 1200px;
         height: 3%;
         margin-top: 4%;
         margin-left: 0.3%;
@@ -1580,7 +1611,7 @@ table {
     }
     .header>.header_aside {
         width: 18%;
-        height: 30%;
+        height: 55%;
         background: #ddd;
         border: 1px solid #BD87EE;
         border-radius: 60px/30px;
@@ -1645,8 +1676,8 @@ table {
 
     }
     .top-aside {
-        width: 23%;
-        height: 10%;
+        width: 30%;
+        height: 13%;
         border: 2px solid grey;
         text-align: center;
         color: #008000;
@@ -1802,6 +1833,7 @@ table {
         background-image: -webkit-repeating-linear-gradient(45deg, #b8dfd8 20px, #FFC0CB 30px, #708090 40px);
         background-image: -o-repeating-linear-gradient(45deg, #b8dfd8 20px, #FFC0CB 30px, #708090 40px);
         background-image: repeating-linear-gradient(45deg, #b8dfd8 20px, #FFC0CB 30px, #708090 40px);
+        background-size: cover;
     }
     .body {
         width: 1500px;
@@ -1815,7 +1847,8 @@ table {
         -webkit-box-shadow: 0 0 15px 5px rgba(44, 82, 100, .75);
         box-shadow: 0 0 15px 5px rgba(44, 82, 100, .75);
         border-radius: 15px;
-        width: 98%;
+        width: 100%;
+        max-width: 1500px;
         height: auto;
         margin: 4%;
         padding: 2%;
@@ -1868,8 +1901,8 @@ table {
 
     }
     .header>.header_aside {
-        width: 18%;
-        height: 40%;
+        width: 20%;
+        height: 55%;
         background: #ddd;
         border: 1px solid #BD87EE;
         border-radius: 60px/30px;
@@ -1878,9 +1911,9 @@ table {
         position: absolute;
         top: 18%;
         right: 3%;
-        line-height: 2.5em;
+        line-height: 1.5em;
         color: #4B00B2;
-        font-size: 105%;
+        font-size: 115%;
         text-align: center;
     }
 
@@ -1932,7 +1965,7 @@ table {
 
     }
     .top-aside {
-        width: 23%;
+        width: 15%;
         height: 10%;
         border: 2px solid grey;
         text-align: center;
@@ -2031,7 +2064,7 @@ table {
         height: auto;
         border-radius: 15px;
         float: left;
-        margin: 2%;
+        margin: 3%;
         background-color: #FFD700;
         padding: 2%;
         text-align: center;

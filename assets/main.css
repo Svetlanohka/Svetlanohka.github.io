@@ -19,11 +19,11 @@
         background-color: #DDA0DD;
         border-radius: 10px;
         text-align: center;
-        padding:0%;
+        padding:1%;
         position: relative;
-        margin-top:25%;
-        margin-left: 1%;
-         color: #00008b;
+         margin: 1%;
+        margin-top:5%;
+        color: #00008b;
         font-size: 0.9em;
 
     }
@@ -49,7 +49,7 @@
         padding:2%;
         position: relative;
         margin-top:1%;
-        margin-left: 2%;
+        margin: auto;
         color: #00008b;
         font-size: 0.9em;
        
@@ -81,7 +81,8 @@
         height: auto;
         border-radius: 15px;
         float: left;
-        margin: 2%;
+        margin:auto;
+        margin-left: 5%;
         background-color: rgb(188, 142, 244);
         text-align: center;
         text-decoration: underline;
@@ -116,7 +117,7 @@
         padding:0%;
         float: left;
         margin-top: 5%;
-        margin-left: 1%;
+        margin-left: 25%;
         
     }
     
@@ -135,7 +136,8 @@
      height: auto;
     border-radius: 15px;
      float: left;
-    margin: auto;
+    margin-top: 5%;
+    margin-left: 5%;
     font-size: 1.5em;
    background-color:#9370DB;
    padding: 2%;
@@ -152,8 +154,9 @@
      height: auto;
     border-radius: 15px;
      float: right;
-     margin:1%;
-    font-size: 1em;
+     margin-top: 1%;
+     margin-right: 5%;
+     font-size: 1em;
    background-color:#6762BC;
    padding: 2%;
    text-align: center;
@@ -177,8 +180,8 @@
         text-align: center;
         padding:3% 1% 5% 2%;
         position: relative;
-        margin-top:20%;
-        margin-left: 1%;
+         margin: 1%;
+        margin-top:5%;
         color: #00008b;
         font-size: 0.9em;
 
@@ -204,7 +207,7 @@
         text-align: center;
         padding:2%;
         position: relative;
-        margin-top:-175%;
+        margin-top:-170%;
         margin-left: 52%;
         color: #00008b;
         font-size: 0.9em;
@@ -246,7 +249,7 @@
         height: auto;
         border-radius: 15px;
         float: right;
-        margin-top: -195%;
+        margin-top: -175%;
         background-color: rgb(188, 142, 244);
         text-align: center;
         text-decoration: underline;
@@ -275,7 +278,7 @@
         border-radius: 10px;
         padding:0%;
         float: left;
-        margin-top: 145%;
+        margin-top: 115%;
         margin-left: 5%;
         text-align: center;
         
@@ -338,14 +341,14 @@
 
 
  .main_figure_one {
-        width:47%;
+        width:50%;
         height: auto;
         background-color: #DDA0DD;
         border-radius: 10px;
         text-align: center;
         padding:3% 1% 5% 2%;
         position: relative;
-        margin-top:20%;
+        margin-top:5%;
         margin-left: 1%;
         color: #00008b;
         font-size: 0.9em;
@@ -358,7 +361,7 @@
     
 }
     .main_figure-image_one {
-        width:65%;
+        width:55%;
         margin:3%;
         float:left;
         
@@ -372,7 +375,7 @@
         text-align: center;
         padding:2%;
         position: relative;
-        margin-top:-135%;
+        margin-top:-110%;
         margin-left: 52%;
         color: #00008b;
         font-size: 0.9em;
@@ -504,10 +507,12 @@
 
 @media screen and (min-width: 740px) and (max-width:1024px) {
 
-
+.wrapper{
+ max-width:1024px;
+}
 
      .main_figure_one {
-        width: 45%;
+        width: 55%;
         height: auto;
         background-color: #DDA0DD;
         border-radius: 10px;
@@ -532,13 +537,13 @@
         
     }
      .main_figure_dop{
-       width: 48%;
+       width: 42%;
        height: auto;
         background-color: #CCC3EE;
          border-radius: 10px;
         text-align: center;
         padding:2%;
-        position: relative;
+       float: right;
         margin-top:-70%;
         margin-left: 52%;
         color: #00008b;
@@ -546,49 +551,29 @@
        
    }  
    
+   .main_figure_dop h2{
+    font-size: 1.3em;
+   }
+    
   .main_figure_dop img{
-       width: 90%;
+       width: 70%;
        height: 95%;
        padding: 2%;
        margin: 2%;
    }
-  .main_figure_three {
-        width: 47%;
-        height: auto;
-        border-radius: 15px;
-        float: left;
-        margin:2% 2% 1% 1%;
-        background-color: rgb(218, 112, 214);
-        text-align: center;
-        text-decoration: underline;
-        color: #483d8b;
-        font-size:105%;
-        padding: 1%;
-        padding-top: 10%;
-        line-height:1.8em;
-    }
-   
-    
-    .main_figure-image_two{
-       width: 90%;
-       float: left;
-       padding: 3%;
-       border-radius: 10px;
-       margin-top:10%;
-   }
-   .main_figure_four{
-        width: 47%;
+    .main_figure_four{
+        width: 42%;
         height: auto;
         border-radius: 15px;
         float: right;
-        margin-top: -81%;
+        margin-top: -65%;
         background-color: rgb(188, 142, 244);
         text-align: center;
         text-decoration: underline;
         color: #483d8b;
         font-size:115%;
         padding:1%;
-        padding-top:15%;
+        padding-top:1%;
         padding-bottom: 5%;
        
    }
@@ -600,8 +585,11 @@
        font-family: serif;
        
    }
+    .main_figure_four img{
+     width: 70%;
+    }
     .main_figure_two{
-        width:98%;
+        width:55%;
         height: auto;
          background-color: #DDA0DD;
         border-radius: 10px;
@@ -612,7 +600,7 @@
         text-align: center;
         
     }
-    
+   
     
     .main_figure_two h2{
      color: #00008B;
@@ -629,8 +617,34 @@
         border-radius: 10px;
         margin: auto;
            }
+  .main_figure_three {
+        width: 48%;
+        height: auto;
+        border-radius: 15px;
+        float: left;
+        margin:1%;
+        background-color: rgb(218, 112, 214);
+        text-align: center;
+        text-decoration: underline;
+        color: #483d8b;
+        font-size:105%;
+        padding: 1%;
+        padding-top: 10%;
+        line-height:1em;
+    }
+   
+    
+    .main_figure-image_two{
+       width: 90%;
+       float: left;
+       padding: 1%;
+       border-radius: 10px;
+       margin-top:5%;
+   }
+  
+   
  .tread {
-     width: 30%;
+     width: 46%;
      height: auto;
     border-radius: 15px;
      float: left;
@@ -648,12 +662,12 @@
 }
 
 .tread-cap{
-     width: 60%;
+     width: 46%;
      height: auto;
     border-radius: 15px;
      float: right;
     margin-top: 0%;
-    margin-right: -2%;
+    margin-right: 3%;
     font-size: 1.5em;
    background-color:#6762BC;
    padding: 2%;
@@ -672,8 +686,9 @@
 
 @media screen and (min-width: 1024px) and (max-width:1200px) {
 
- 
- 
+ .wrapper{
+  max-width:1200px;
+ }
    
      .main_figure_one {
         width: 45%;
@@ -847,10 +862,7 @@
 *{
  box-sizing: border-box;
 }
-body{
- max-width: 1500px;
- width:100%;
-  }
+
      .main_figure_one {
         width:60%;
         height: auto;
@@ -863,7 +875,7 @@ body{
         margin-left: 1%;
         margin-bottom:2%;
         color: #00008b;
-        font-size:1.3em;
+        font-size:1.1em;
 
     }
 .main_figure_one h2{
@@ -872,6 +884,7 @@ body{
     
 }
 h2{
+ font-size: 1.2em;
  margin:2% 1%;
 }
     .main_figure-image_one {
@@ -884,14 +897,14 @@ h2{
     }
     
      .main_figure_dop{
-       width: 35%;
+       width: 30%;
        height: auto;
         background-color: #CCC3EE;
          border-radius: 10px;
         text-align: center;
         padding:2%;
         position: relative;
-        margin-top:-60%;
+        margin-top:-65%;
         margin-left: 65%;
         color: #00008b;
         font-size: 115%;
@@ -903,37 +916,13 @@ h2{
        padding: 1%;
        margin: 1%;
    }
-    .main_figure_three {
-        width: 57%;
-        height: auto;
-        border-radius: 15px;
-        float: left;
-        margin: 2% 2% 1% 10%;
-        background-color: rgb(218, 112, 214);
-        text-align: center;
-        text-decoration: underline;
-        color: #483d8b;
-        font-size:105%;
-        padding: 1%;
-        padding-top: 3%;
-        line-height:1.8em;
-    }
-   
-    
-    .main_figure-image_two{
-       width: 90%;
-       float: left;
-       padding: 1% 5%;
-       border-radius: 10px;
-       margin-top:1%;
-   }
-    
      .main_figure_four{
         width: 30%;
         height: auto;
         border-radius: 15px;
         float: right;
-        margin-top:-45%;
+        margin-top:-108%;
+        margin-left: 52%;
         background-color: rgb(188, 142, 244);
         text-align: center;
         text-decoration: underline;
@@ -941,8 +930,11 @@ h2{
         font-size:115%;
         padding:1%;
         padding-top:2%;
-        padding-bottom: 5%;
+        padding-bottom: 1%;
        
+   }
+   .main_figure_four img{
+        width: 65%;
    }
    .main_figure_four h2{
        margin: 0%;
@@ -952,7 +944,7 @@ h2{
        font-family: serif;
        
    }
-    .main_figure_two{
+      .main_figure_two{
         width:50%;
         height: auto;
          background-color: #DDA0DD;
@@ -960,7 +952,7 @@ h2{
         padding:0%;
         float: left;
         margin-top: 30%;
-        margin-left:-31%;
+        margin-left:-35%;
         margin-bottom: 1%; 
         text-align: center;
         
@@ -982,31 +974,58 @@ h2{
         border-radius: 10px;
         margin: 2%;
            }
+    .main_figure_three {
+        width: 45%;
+        height: auto;
+        border-radius: 15px;
+        float: left;
+        margin: 2%;
+        background-color: rgb(218, 112, 214);
+        text-align: center;
+        text-decoration: underline;
+        color: #483d8b;
+        font-size:105%;
+        padding: 1%;
+        padding-top: 3%;
+        line-height:1.3em;
+    }
+   
+    
+    .main_figure-image_two{
+       width: 80%;
+       float: left;
+       padding: 1% 5%;
+       border-radius: 10px;
+       margin-top:1%;
+   }
+    
+   
+ 
  .tread {
-     width: 35%;
+     width: 30%;
      height: auto;
     border-radius: 15px;
-     float: left;
-    margin: 10%;
-   margin-right:10%;
-   font-size: 1.5em;
+     float: right;
+    margin-top:-70%;
+   margin-right:5%;
+   font-size: 1em;
    background-color:#9370DB;
-   padding: 2%;
+   padding: 1%;
    text-align: center;
    
  } 
 
 .tread h2 {
-    font-size: large;
+    font-size:1.5em;
     color: #006400;
 }
 
 .tread-cap{
-     width: 60%;
+     width: 45%;
      height: auto;
     border-radius: 15px;
      float: right;
-    margin-top: 0%;
+    margin-top: -30%;
     margin-right: -2%;
     font-size: 1.5em;
    background-color:#6762BC;

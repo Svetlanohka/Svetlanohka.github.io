@@ -226,7 +226,10 @@
 .main_container{
     height:100%;
 }
- 
+.footer{
+    float:left;
+    margin-top: 0%;
+} 
 }
 
 
@@ -294,7 +297,7 @@ input[type=radio] {
     border-top: 20px solid transparent;
     border-left: 20px solid transparent;
     position: absolute;
-    top: 110%;
+    top: 90%;
     left: 10%;
 }
 
@@ -307,7 +310,7 @@ input[type=radio] {
     border-right: 20px solid transparent;
     position: absolute;
     left: 90%;
-    top: 110%;
+    top: 90%;
 }
 
 .div__pins>label {

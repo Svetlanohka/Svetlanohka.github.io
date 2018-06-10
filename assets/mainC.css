@@ -100,13 +100,23 @@ div.tableRow p {
 div.tableRow p:first-child {
  text-align: right;
 }
-
+.ordeX{
+    width: 100%;
+    float: left;
+    
+}
+.ordeX #ordeX{
+    float: left;
+    line-height: 1.2em;
+    margin-top: 3%;
+}
 #ordeX{
 width: 100%;
     color:#B80000;
     margin:auto;
     line-height:0.3em;
 }
+
 }
 @media screen and (min-width: 341px)and  (max-width:480px){
     
@@ -226,7 +236,14 @@ p.heading {
     line-height: 1.5em;
     padding-top: 2%;
 }
-
+#ordeX h2{
+    margin-top: 1%;
+    
+}
+.footer{
+    float: left;
+    margin-top: 0;
+}
    }
 
  
@@ -277,7 +294,7 @@ transform: scale(1.5);
 
 .mainAvi {
    margin: 5%;
-  margin-top: 35%;
+  margin-top: 48%;
   padding: 0;
   list-style: none;
   width: 47%;position:absolute;
@@ -354,9 +371,9 @@ p.heading {
 
 #ordeX{
     color:#B80000;
-    text-align: center;
+    text-align: left;
     margin:2%;
-    margin-top:0%;
+    margin-top:10%;
     margin-bottom: 5%;
     font-size: 1.3em;
     line-height: 1.5em;
@@ -366,7 +383,10 @@ p.heading {
 
 }
 @media screen and (min-width: 740px) and (max-width:1024px){
-     
+html{
+    height: auto;
+    background-size: cover;
+}     
 .video {
    width:100%;display: inline-block;
    text-align: center;height: auto;
@@ -676,7 +696,7 @@ transform: scale(1.5);
 
 .mainAvi {
   margin: 1%;
-  margin-top: 15%;
+  margin-top: 25%;
   padding: 0;
   list-style: none;
   width: 47%;position:absolute;
