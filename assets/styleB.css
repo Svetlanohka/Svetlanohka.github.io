@@ -1,3 +1,9 @@
+ *, *:after, *:before {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+transition: .5s ease-in-out; /* добавим плавность переходов для всех элементов страницы*/
+}
  body {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #8313AA), to(#D3D3D3));
   background-image: -webkit-linear-gradient(top, #8313AA 5%, #D3D3D3);
@@ -80,7 +86,10 @@
   margin-top: 5%;
 
  }
-
+/* меню */
+#menu {
+float: right;
+}
  .mainNav {
   display: block;
  }
@@ -768,7 +777,6 @@
   }
  }
 
-
  @media screen and (min-width: 740px) and (max-width:1023px) {
   .top-aside-sign {
    width: 50%;
@@ -985,6 +993,44 @@
    margin-top: -15%;
    left: 10%;
   }
+  .nav-toggle {
+display: none;
+position: relative;
+float: right;
+width: 40px;
+height: 40px;
+margin-left: 20px;
+background: #EF5A42;
+cursor: pointer;
+}
+.nav-toggle span {
+display: block;
+position: absolute;
+top: 19px;
+left: 8px;
+right: 8px;
+height: 2px;
+background: white;
+}
+.nav-toggle span:before, .nav-toggle span:after {
+content: "";
+position: absolute;
+display: block;
+left: 0;
+width: 100%;
+height: 2px;
+background: white;
+}
+.nav-toggle span:before {
+top: -10px;
+}
+.nav-toggle span:after {
+bottom: -10px;
+}
+/* класс, который будет добавлен в верхнему меню при нажатии на кнопку и покажет скрытое меню*/
+#menu.active {
+max-height: 123px;
+}
   #slider_bg {
    overflow: hidden;
   }
