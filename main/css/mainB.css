@@ -1,0 +1,158 @@
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+ 
+    div>h2 {
+        text-align: center;
+        color: #B8860B;
+        font-size: 185%;
+        font-family: fantasy;
+        letter-spacing: 0.8em;
+        text-shadow: 2px 2px 2px #6495ED;
+        margin-top: 0;
+    }
+    section>img {
+        width: 100%;
+        height: auto;
+        margin:0 auto;
+        background-color: #CD853F;
+        border: 5px solid #A0522D;
+        border-radius: 20px;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+
+    }
+    section {
+        width: 100%;
+        height: 30%;
+        margin:0 auto;
+    }
+
+    section,
+    input[type=radio] {
+        display: none;
+    }
+
+    .input__slide_img1:checked~.div__slider>.section__slide_one,
+    .input__slide_img2:checked~.div__slider>.section__slide_two,
+    .input__slide_img3:checked~.div__slider>.section__slide_three,
+    .input__slide_img4:checked~.div__slider>.section__slide_four,
+    .input__slide_img5:checked~.div__slider>.section__slide_five,
+    .input__slide_img6:checked~.div__slider>.section__slide_six,
+    .input__slide_img7:checked~.div__slider>.section__slide_seven,
+    .input__slide_img8:checked~.div__slider>.section__slide_eight,
+    .input__slide_img9:checked~.div__slider>.section__slide_nine,
+    .input__slide_img10:checked~.div__slider>.section__slide_ten {
+        display: block;
+        -webkit-transition: color 0.7s ease-in 0.3s;
+        -o-transition: color 0.7s ease-in 0.3s;
+        transition: color 0.7s ease-in 0.3s;
+
+    }
+        .div__pins>label {
+        height: 30px;
+        width: 30px;
+        border: 1px solid #BA55D3;
+        border-radius: 50%;
+        float: left;
+        margin: 1%;
+        margin-top: 3%;
+        margin-left: 1%;
+        cursor: pointer;
+    }
+
+    .input__slide_img1:checked~div .div__pins .pins_one,
+    .input__slide_img2:checked~div .div__pins .pins_two,
+    .input__slide_img3:checked~div .div__pins .pins_three,
+    .input__slide_img4:checked~div .div__pins .pins_four,
+    .input__slide_img5:checked~div .div__pins .pins_five,
+    .input__slide_img6:checked~div .div__pins .pins_six,
+    .input__slide_img7:checked~div .div__pins .pins_seven,
+    .input__slide_img8:checked~div .div__pins .pins_eight,
+    .input__slide_img9:checked~div .div__pins .pins_nine,
+    .input__slide_img10:checked~div .div__pins .pins_ten {
+        display: block;
+        background: #BA55D3;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s
+    }
+
+ @media screen and (min-width: 1201px) {
+.div__slider {
+        width: 100%;
+        height:20%;
+        margin:0 auto;
+    }
+      .footer_phone{
+           margin-right: 0%;
+        margin-top:-1%;
+        
+    }
+    .footer_mail{
+ margin-top:1%;
+    }
+ }
+@media screen and (min-width:1024px)and (max-width:1200px) {
+ .footer_phone{
+           margin-right:-1%;
+        margin-top:-1%;
+        
+    }
+    .footer_mail{
+ margin-top:1%;
+    }
+   } 
+   @media screen and (min-width:741px) and (max-width:1024px) {
+       .footer_phone{
+           margin-right:-1%;
+        margin-top:-1%;
+        
+    }
+    .footer_mail{
+ margin-top:2%;
+  margin-right:-18%;
+    }
+   } 
+   @media screen and (min-width: 600px) and (max-width:740px) {
+       .footer_phone{
+           margin-right:0%;
+        margin-top:2.5%;
+        
+    }
+    .footer_mail{
+ margin-top:2.5%;
+  margin-right:45%;
+    }
+   } 
+   @media screen and (min-width: 481px) and (max-width:599px) {
+       .footer_phone{
+           margin-right:3%;
+        margin-top:4%;
+        
+    }
+    .footer_mail{
+ margin-top:4%;
+  margin-right:30%;
+    }
+   } 
+    @media screen and (min-width: 320px) and (max-width:480px) {
+        .footer{
+            position:relative;
+           height:25%;
+            float: left;
+    }
+    .footer_phone{
+           margin-right:0%;
+        margin-top:4%;
+        
+    }
+     .footer_mail{
+ margin-top:4%;
+  margin-right:5%;
+    }
+    }
