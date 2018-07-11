@@ -6,14 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Project</title>
-    <link rel="stylesheet" href="../css/styleA.css" type="text/css" />
-   
+     <link rel="stylesheet" href="../css/main.css" type="text/css" />
+    <link rel="stylesheet" href="../css/mainA.css" type="text/css" />
+    <script src="jquery.min.js"></script>
+    <script src="jquery.fitvids.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Target your .container, .wrapper, .post, etc.
+            $("#thing-with-videos").fitVids();
+        });
+    </script>
+    `
 </head>
 
 <body class="body">
     <div class="container">
         <div class="row">
-                <div class="post-social">
+            <div class="post-social">
                 <div class="col-1-1"><a href="https://vk.com/sitepeopleknit" target="_blank"><img src="../images/vk.png"title="vk"alt="В контакте"></a></div>
                 <div class="col-1-2"><a href="https://ok.ru/group/https://ok.ru/group/52503531683969" target="_blank"><img src="../images/ok.png"title="ok"alt="В одноклассниках"></a></div>
                 <div class="col-1-3"><a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2Fpeopleknit%2F" target="_blank"><img src="../images/fb.png" title="fb" alt="facebook"></a></div>
@@ -32,88 +41,99 @@
                 <img src="../images/cat.svg" title='Котик' alt="Котик с клубком" width="200px;">
             </div>
         </div>
+        <div class="row">
+            <div class="slider">
+                <a href="indexB.html" title="ГАЛЕРЕЯ">
+                    <h2 class="galery">Слайдер с моделями</h2>
+                </a>
+                <input type="radio" id="one" name="img">
+                <input type="radio" id="two" name="img">
+                <input type="radio" id="three" name="img" checked>
+                <input type="radio" id="four" name="img">
+                <input type="radio" id="five" name="img">
+                <input type="radio" id="six" name="img">
+                <input type="radio" id="zero" name="img">
+                <input type="radio" id="eight" name="img">
+                <div id="slider">
+                    <section class="slide">
+                        <img src="../images/slide_one.jpg" width="" title="" alt="">
+                    </section>
+                    <section class="slide">
+                        <img src="../images/slide_two.jpg" width="" title="" alt="">
+                    </section>
+                    <section class="slide">
+                        <img src="../images/slide_three.jpg" width="" title="" alt="">
+                    </section>
+                    <section class="slide">
+                        <img src="../images/slide_four.jpg" width="" title="" alt="">
+                    </section>
+                    <section class="slide">
+                        <img src="../images/slide_five.jpg" width="" title="" alt="">
+                    </section>
+                    <section class="slide">
+                        <img src="../images/slide_six.jpg" width="" title="" alt="">
+                    </section>
+                    <section class="slide">
+                        <img src="../images/slide_zero.jpg" width="" title="" alt="">
+                    </section>
+                    <section class="slide">
+                        <img src="../images/slide_eight.jpg" width="" title="" alt="">
+                    </section>
+                    <div class="pins">
+                        <label for="one"></label>
+                        <label for="two"></label>
+                        <label for="three"></label>
+                        <label for="four"></label>
+                        <label for="five"></label>
+                        <label for="six"></label>
+                        <label for="zero"></label>
+                        <label for="eight"></label>
+                    </div>
+                </div>
+            </div>
             <div class="row">
-            <div class="slider"><a href="indexB.html" title="ГАЛЕРЕЯ"><h2 class="galery">Слайдер с моделями</h2></a>
-            <input type="radio" id="one" name="img">
-            <input type="radio" id="two" name="img">
-            <input type="radio" id="three" name="img"checked>
-            <input type="radio" id="four" name="img">
-            <input type="radio" id="five" name="img">
-            <input type="radio" id="six" name="img">
-            <input type="radio" id="zero" name="img">
-            <input type="radio" id="eight" name="img">
-            <div id="slider">
-                <section class="slide">
-                    <img src="../images/slide_one.jpg"width=""title="" alt="">
-                    </section>
-                 <section class="slide">
-                    <img src="../images/slide_two.jpg"width=""title="" alt="">
-                    </section>
-                 <section class="slide">
-                    <img src="../images/slide_three.jpg"width=""title="" alt="">
-                    </section>
-                 <section class="slide">
-                    <img src="../images/slide_four.jpg"width=""title="" alt="">
-                    </section>
-                 <section class="slide">
-                    <img src="../images/slide_five.jpg"width=""title="" alt="">
-                    </section>
-                 <section class="slide">
-                    <img src="../images/slide_six.jpg"width=""title="" alt="">
-                    </section>
-                 <section class="slide">
-                    <img src="../images/slide_zero.jpg"width=""title="" alt="">
-                    </section>
-                 <section class="slide">
-                    <img src="../images/slide_eight.jpg"width=""title="" alt="">
-                    </section>
-                <div class="pins">
-                    <label for="one"></label>
-                    <label for="two"></label>
-                    <label for="three"></label>
-                    <label for="four"></label>
-                    <label for="five"></label>
-                    <label for="six"></label>
-                    <label for="zero"></label>
-                    <label for="eight"></label>
+                <p class="text">Вязание спицами считают одним из самых старых видов рукоделия, который ассоциируется с теплом и уютом. На сегодняшний день вязание спицами представляет собой один из лучших способов подчеркнуть собственную индивидуальность и обзавестись
+                    уникальными предметами гардероба, которых больше ни у кого не будет кроме Вас. Независимо от Вашего уровня дохода, всегда можно изготовить эксклюзивные модели для того, чтобы выглядеть стильно, модно и необычно. Специально для тех
+                    представительниц прекрасного пола, которые увлекаются вязанием спицами, созданы разделы со схемами для вязания. С помощью различных вариантов схем для вязания можно создать как простые и незамысловатые вещи из натуральной шерсти, так
+                    и настоящие шедевры, которые по плечу настоящим профессионалам. Как для начинающих, так и для специалистов со стажем, будут полезны видео-уроки вязания спицами, которые помогут освоить новые узоры и расширить горизонты, а также взглянуть
+                    на привычные вещи под другим углом. Я взяла крючок в руки, когда мне было 5 лет и начала вязать незамысловатые изделия , в основном для кукол , а также салфетки.В десять лет я обучала вязанию мам и бабушек моих подружек. Вязание кроме
+                    сказанного выше помогает нервной системе, мозговой деятельности (когда вы вяжете вы следите за узором , иногда подсчитываете петли и т.д.)</p>
+            </div>
+            <div class="row">
+                <div class="video">
+                    <h2 id="video"><a href="indexC.html#video" target="_" title="Видеоуроки по вязанию">ВИДЕОУРОКИ ПО ВЯЗАНИЮ</a></h2>
                 </div>
-        </div>
-         </div>
-        <div class="row">
-            <p class="text">Вязание спицами считают одним из самых старых видов рукоделия, который ассоциируется с теплом и уютом. На сегодняшний день вязание спицами представляет собой один из лучших способов подчеркнуть собственную индивидуальность и обзавестись уникальными
-                предметами гардероба, которых больше ни у кого не будет кроме Вас. Независимо от Вашего уровня дохода, всегда можно изготовить эксклюзивные модели для того, чтобы выглядеть стильно, модно и необычно. Специально для тех представительниц
-                прекрасного пола, которые увлекаются вязанием спицами, созданы разделы со схемами для вязания. С помощью различных вариантов схем для вязания можно создать как простые и незамысловатые вещи из натуральной шерсти, так и настоящие шедевры,
-                которые по плечу настоящим профессионалам. Как для начинающих, так и для специалистов со стажем, будут полезны видео-уроки вязания спицами, которые помогут освоить новые узоры и расширить горизонты, а также взглянуть на привычные вещи
-                под другим углом. Я взяла крючок в руки, когда мне было 5 лет и начала вязать незамысловатые изделия , в основном для кукол , а также салфетки.В десять лет я обучала вязанию мам и бабушек моих подружек. Вязание кроме сказанного выше помогает
-                нервной системе, мозговой деятельности (когда вы вяжете вы следите за узором , иногда подсчитываете петли и т.д.)</p>
+                <div class="sign"><a href="indexC.html#video" target="_" title="Видеоуроки по вязанию"><img src="../images/sign.png"width="120px"></a></div>
+            </div>
+            <div class="row_circle">
+                <div class="circle">
+                    <figure class="cardigan" id="cardigan"><a href="http://yahozayka.com/wp-content/uploads/2017/05/2-43.jpg" target="_"><img class="cardigan image move-up" src="../images/proect.jpg" title="Филейный кардиган" width="240px" ;></a>
+                        <figcaption>Кардиган</figcaption>
+                    </figure>
                 </div>
-        <div class="row">
-            <div class="video"><h2 id="video"><a href="indexC.html#video"target="_" title="Видеоуроки по вязанию">ВИДЕОУРОКИ ПО ВЯЗАНИЮ</a></h2></div>
-            <div class="sign"><a href="indexC.html#video"target="_" title="Видеоуроки по вязанию"><img src="../images/sign.png"width="60px";></a></div>
-        </div>
-        <div class="row">
-            <div class="circle">
-                <figure id="cardigan"><a href="http://yahozayka.com/wp-content/uploads/2017/05/2-43.jpg" target="_"><img class="cardigan image move-up" src="../images/proect.jpg" title="Филейный кардиган" width="240px" ;></a></figure>
-            <span><h2>Кардиган</h2></span>
-            </div>
-            <div class="circle">
-                <figure id="getry"><a href="http://prjaga.ru/vyazanie-dlya-zhenshchin/noski-tapki/getry-spicami-s-kosami" target="_"><img class="getry image move-up" src="../images/getryA.jpg" title="Вязанные гетры" width="240px" ;></a></figuer>
-             <span><h2>Гетры</h2></span>
-            </div>
-            <div class="circle">
-                <figure id="pryga"><a href="http://petelka.by/katalog/pryazha" target="_"><img class="pryga image move-up" src="http://www.vjazanie-spicami.ru/577177.jpg" width="240px" title="Пряжа" alt "Пряжа"></a></figure>
-                <span><h2>Пряжа</h2></span>
+                <div class="circle">
+                    <figure class="getry" id="getry"><a href="http://prjaga.ru/vyazanie-dlya-zhenshchin/noski-tapki/getry-spicami-s-kosami" target="_"><img class="getry image move-up" src="../images/getryA.jpg" title="Вязанные гетры" width="240px" ;></a>
+                        <figcaption>Гетры</figcaption>
+                    </figure>
                 </div>
-            <div class="circle">
-                <figure id="cap"><a href="http://prjaga.ru/vyazanie-dlya-zhenshchin/sharf-snud-palantin/shapka-i-snud-spicami-spiralnym-uzorom" target="_"><img class="cap image move-up" src="../images/capy.jpg" width="240px" title="Вязанная шапка"></a></figure>
-            <span><h2>Шапка</h2></span>
+                <div class="circle">
+                    <figure class="pryga" id="pryga"><a href="http://petelka.by/katalog/pryazha" target="_"><img class="pryga image move-up" src="http://www.vjazanie-spicami.ru/577177.jpg" width="240px" title="Пряжа" alt "Пряжа"></a>
+                        <figcaption>Пряжа</figcaption>
+                    </figure>
+                </div>
+                <div class="circle">
+                    <figure class="cap" id="cap"><a href="http://prjaga.ru/vyazanie-dlya-zhenshchin/sharf-snud-palantin/shapka-i-snud-spicami-spiralnym-uzorom" target="_"><img class="cap image move-up" src="../images/capy.jpg" width="240px" title="Вязанная шапка"></a>
+                        <figcaption>Шапка</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="row">
+                <div class="footer">
+                    <div class="footer_phone">тел:+375 29 1234567</div>
+                    <div class="footer_mail">mail@email.com</div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="footer">
-            <div class="footer_phone">тел:+375 29 1234567</div>
-            <div class="footer_mail">mail@email.com</div></div>
-            </div>
-        </div>
-    </body>
-    </html>
+</body>
+
+</html>
